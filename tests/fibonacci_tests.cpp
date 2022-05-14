@@ -15,7 +15,7 @@ constexpr std::array<int64_t, kFibMax> kFibTable = {
     17711,   28657,   46368,   75025,    121393,   196418,   317811,   514229,    832040,    1346269,   2178309,
     3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986, 102334155, 165580141, 267914296, 433494437};
 
-SCENARIO("Fibonacci:Binet") {
+SCENARIO("Fibonacci::Binet") {
   const int number = GENERATE(range(0, kFibMax));
   CHECK(fib_binet(number) == kFibTable[number]);
 }

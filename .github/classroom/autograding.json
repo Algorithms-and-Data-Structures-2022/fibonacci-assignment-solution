@@ -3,7 +3,7 @@
     {
       "name": "Fibonacci::Binet",
       "setup": "",
-      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Binet\"",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Binet\"",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -13,7 +13,7 @@
     {
       "name": "Fibonacci::Iterative",
       "setup": "",
-      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Iterative\"",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Iterative\"",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -23,7 +23,7 @@
     {
       "name": "Fibonacci::Recursive",
       "setup": "",
-      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Recursive\"",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Recursive\"",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -33,7 +33,7 @@
     {
       "name": "Fibonacci::Memoization",
       "setup": "",
-      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Memoization\"",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Memoization\"",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -43,7 +43,7 @@
     {
       "name": "Fibonacci::Matrix",
       "setup": "",
-      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Matrix\"",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Matrix\"",
       "input": "",
       "output": "",
       "comparison": "exact",

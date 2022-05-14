@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Fibonacci:Binet",
+      "name": "Fibonacci::Binet",
       "setup": "",
       "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Binet\"",
       "input": "",
@@ -11,7 +11,7 @@
       "points": 1
     },
     {
-      "name": "Fibonacci:Iterative",
+      "name": "Fibonacci::Iterative",
       "setup": "",
       "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Iterative\"",
       "input": "",
@@ -21,7 +21,7 @@
       "points": 1
     },
     {
-      "name": "Fibonacci:Recursive",
+      "name": "Fibonacci::Recursive",
       "setup": "",
       "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Recursive\"",
       "input": "",
@@ -31,7 +31,7 @@
       "points": 1
     },
     {
-      "name": "Fibonacci:Memoization",
+      "name": "Fibonacci::Memoization",
       "setup": "",
       "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Memoization\"",
       "input": "",
@@ -41,7 +41,7 @@
       "points": 1
     },
     {
-      "name": "Fibonacci:Matrix",
+      "name": "Fibonacci::Matrix",
       "setup": "",
       "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci:Matrix\"",
       "input": "",

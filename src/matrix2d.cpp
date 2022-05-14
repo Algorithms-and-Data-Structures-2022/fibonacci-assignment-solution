@@ -23,7 +23,14 @@ namespace assignment {
 
     while (power != 0) {
 
-      // Напишите здесь свой код ...
+      // если степень нечетная, то умножаем результат на матрицу
+      if (power % 2 == 1) {
+        res = matrix_multiply(res, matrix);
+      }
+
+      matrix = matrix_multiply(matrix, matrix);
+
+      power >>= 1;  // целочисленное деление на 2
     }
 
     return res;
